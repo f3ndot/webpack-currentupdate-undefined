@@ -1,7 +1,7 @@
 {
-  "name": "typescript-playground",
+  "name": "webpack-currentupdate-undefined",
   "version": "1.0.0",
-  "description": "Playing around with TypeScript",
+  "description": "Reproduce the bug described in webpack/webpack#14873",
   "author": "Justin Bull <me@justinbull.ca>",
   "license": "MIT",
   "private": true,
