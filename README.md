@@ -1,4 +1,4 @@
-# `currentUpdate is undefined` reproducable repo
+# `currentUpdate is undefined` reproducible repo
 
 This repo should reproduce the bug reported in [webpack/webpack#14873](https://github.com/webpack/webpack/discussions/14873) with the correct environment.
 
@@ -37,7 +37,7 @@ Uncaught TypeError: currentUpdate is undefined
 
 **NOTE:** appending or prepending to the string array does *not* reproduce the the error. The value of a pre-existing string must be changed.
 
-## Other Reproducable Actions
+## Other Reproducible Actions
 
 * Add a `console.log("foo");` after line 15
 * Changing the string in `btn.innerHTML` on line 12
